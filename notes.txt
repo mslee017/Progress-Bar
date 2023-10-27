@@ -1,0 +1,26 @@
+A progress bar is a graphical representation of the completion status of a task or operation, typically displayed as a horizontal bar that fills up as the task progresses.
+Your task is to create a reusable progress bar component in React. The component should visually represent the percentage of progress towards the maximum value. Please refer to the provided GIF as a reference; your progress bar should look and behave similarly.
+Instructions:
+Create a functional component named Progress.
+The Progress component should accept two props
+value: A number representing the current progress.
+maxvalue: A number representing the maximum progress(optional, defaults to 100)
+Use the following color codes for the appearance of the progress bar:
+Progress background-color: #EEEEEE
+Indicator background-color: #635BFF
+1:26
+progress-bar.png
+
+progress-bar.png
+
+
+1:27
+progress-bar.mp4
+
+1:27
+Scale up #1
+Now that you’ve created a reusable progress bar component in React, we would like you to implement CSS transitions or animations to create a smooth progress bar filling effect.
+1:27
+Step Up 2
+Next, enhance the accessibility of the progress bar by incorporating relevant ARIA attributes, such as role, aria-valuemin, aria-valuemax, aria-valuenow and aria-valuetext.
+You may use MDN to learn more about these ARIA attributes and their usage during interview.

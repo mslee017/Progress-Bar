@@ -1,0 +1,28 @@
+:root {
+  background-color: #f2e4ef;
+}
+
+.progress-wrapper {
+  max-width: 600px;
+  margin: 300px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.progress-base {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 25px;
+  border-radius: 16px;
+  background-color: #eeeeee;
+}
+
+.progress-indicator {
+  background-color: #635bff;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+}
